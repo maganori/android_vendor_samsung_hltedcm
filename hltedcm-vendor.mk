@@ -373,21 +373,24 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/felica/bin/mfdp:system/bin/mfdp \
     vendor/samsung/hltedcm/proprietary/felica/bin/mfsc:system/bin/mfsc \
-    vendor/samsung/hltedcm/proprietary/felica/etc/osaifu/osaifu.cfg:system/etc/osaifu/osaifu.cfg \
-    vendor/samsung/hltedcm/proprietary/felica/lib/libcordon.so:system/vendor/lib/libcordon.so
+    vendor/samsung/hltedcm/proprietary/felica/etc/osaifu/osaifu.cfg:system/etc/osaifu/osaifu.cfg
  ## snfc
 PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/snfc/etc/snfc/auto_polling.cfg:system/etc/snfc/auto_polling.cfg \
-    vendor/samsung/hltedcm/proprietary/snfc/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg \
-    vendor/samsung/hltedcm/proprietary/snfc/lib/libnfc_sony.so:system/vendor/lib/libnfc_sony.so \
-    vendor/samsung/hltedcm/proprietary/snfc/lib/libnfc_sony_jni.so:system/vendor/lib/libnfc_sony_jni.so \
-    vendor/samsung/hltedcm/proprietary/snfc/lib/libnfc_sony_ndef.so:system/vendor/lib/libnfc_sony_ndef.so
+    vendor/samsung/hltedcm/proprietary/snfc/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg
+
+PRODUCT_PACKAGES += \
+    libnfc_sony_jni \
+    libnfc_sony \
+    libnfc_sony_ndef
+
  PRODUCT_PACKAGES += \
     MobileFeliCaClient \
     MobileFeliCaMenuApp \
     MobileFeliCaSettingApp \
     MobileFeliCaWebPluginBoot \
-    FeliCaLock
+    FeliCaLock \
+    libcordon
 
 PRODUCT_PACKAGES += \
     SmartcardService \
