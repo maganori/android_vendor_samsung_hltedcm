@@ -371,8 +371,6 @@ PRODUCT_COPY_FILES += \
 
 ## FeliCa
 PRODUCT_COPY_FILES += \
-    vendor/samsung/hltedcm/proprietary/felica/bin/mfdp:system/bin/mfdp \
-    vendor/samsung/hltedcm/proprietary/felica/bin/mfsc:system/bin/mfsc \
     vendor/samsung/hltedcm/proprietary/felica/etc/osaifu/osaifu.cfg:system/etc/osaifu/osaifu.cfg
  ## snfc
 PRODUCT_COPY_FILES += \
@@ -390,7 +388,9 @@ PRODUCT_PACKAGES += \
     MobileFeliCaSettingApp \
     MobileFeliCaWebPluginBoot \
     FeliCaLock \
-    libcordon
+    libcordon \
+    mfsc \
+    mfdp
 
 PRODUCT_PACKAGES += \
     SmartcardService \
