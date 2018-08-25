@@ -530,6 +530,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/oneseg/etc/one-seg/njccp932.ctb:system/etc/one-seg/njccp932.ctb \
     vendor/samsung/hltedcm/proprietary/oneseg/etc/one-seg/bmlrom_4.wav:system/etc/one-seg/bmlrom_4.wav \
     vendor/samsung/hltedcm/proprietary/oneseg/etc/one-seg/bmlrom_1.wav:system/etc/one-seg/bmlrom_1.wav \
+    vendor/samsung/hltedcm/proprietary/oneseg/etc/permissions/com.sec.android.app.minimode.xml:system/vendor/etc/permissions/com.sec.android.app.minimode.xml \
+    vendor/samsung/hltedcm/proprietary/oneseg/etc/permissions/com.sec.feature.minimode.xml:system/vendor/etc/permissions/com.sec.feature.minimode.xml \
     vendor/samsung/hltedcm/proprietary/oneseg/fonts/BML.ttf:system/fonts/BML.ttf \
     vendor/samsung/hltedcm/proprietary/oneseg/lib/libBML.so:system/vendor/lib/libBML.so \
     vendor/samsung/hltedcm/proprietary/oneseg/lib/libBroadcastProcObs.so:system/vendor/lib/libBroadcastProcObs.so \
@@ -598,6 +600,10 @@ PRODUCT_PACKAGES += \
     MmbFcBrowMw-res \
     MmbStCtlMw \
     MmbMoInfoMw
+
+PRODUCT_PACKAGES += \
+    minimode \
+    minimode-res
 
 PRODUCT_PACKAGES += \
     libmm-abl \
