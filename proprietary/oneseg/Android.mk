@@ -20,6 +20,9 @@ LOCAL_SRC_FILES := proprietary/oneseg/bin/OneSegDsmcc
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_VENDOR_MODULE := false
+# Stock blob: its DT_NEEDED closure is installed via
+# PRODUCT_COPY_FILES and has no build modules; skip the ELF check.
+LOCAL_CHECK_ELF_FILES := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -29,6 +32,9 @@ LOCAL_SRC_FILES := proprietary/oneseg/bin/SDtvService
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_VENDOR_MODULE := false
+# Stock blob: its DT_NEEDED closure is installed via
+# PRODUCT_COPY_FILES and has no build modules; skip the ELF check.
+LOCAL_CHECK_ELF_FILES := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -38,6 +44,9 @@ LOCAL_SRC_FILES := proprietary/oneseg/bin/BMLEngineServer
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_VENDOR_MODULE := false
+# Stock blob: its DT_NEEDED closure is installed via
+# PRODUCT_COPY_FILES and has no build modules; skip the ELF check.
+LOCAL_CHECK_ELF_FILES := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -47,6 +56,9 @@ LOCAL_SRC_FILES := proprietary/oneseg/bin/broadcastProcessObserver
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_VENDOR_MODULE := true
+# Stock blob: its DT_NEEDED closure is installed via
+# PRODUCT_COPY_FILES and has no build modules; skip the ELF check.
+LOCAL_CHECK_ELF_FILES := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -56,6 +68,9 @@ LOCAL_SRC_FILES := proprietary/oneseg/bin/isdbtmmtest
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_VENDOR_MODULE := true
+# Stock blob: its DT_NEEDED closure is installed via
+# PRODUCT_COPY_FILES and has no build modules; skip the ELF check.
+LOCAL_CHECK_ELF_FILES := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -67,6 +82,9 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_VENDOR_MODULE := true
+# Stock blob: its DT_NEEDED closure is installed via
+# PRODUCT_COPY_FILES and has no build modules; skip the ELF check.
+LOCAL_CHECK_ELF_FILES := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -78,6 +96,9 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_VENDOR_MODULE := true
+# Stock blob: its DT_NEEDED closure is installed via
+# PRODUCT_COPY_FILES and has no build modules; skip the ELF check.
+LOCAL_CHECK_ELF_FILES := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -89,6 +110,9 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_VENDOR_MODULE := true
+# Stock blob: its DT_NEEDED closure is installed via
+# PRODUCT_COPY_FILES and has no build modules; skip the ELF check.
+LOCAL_CHECK_ELF_FILES := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
