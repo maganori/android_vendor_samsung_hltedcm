@@ -358,7 +358,6 @@ PRODUCT_PACKAGES += \
     SmartcardService \
     org.simalliance.openmobileapi \
     org.simalliance.openmobileapi.xml
-PRODUCT_BOOT_JARS += org.simalliance.openmobileapi
 
 # Oneseg / MMB (ported from the lineage-15.1-oneseg vendor tree;
 # destinations converted from system/... literals to TARGET_COPY_OUT_* style.
