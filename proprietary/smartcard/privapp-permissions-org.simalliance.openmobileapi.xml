@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Privapp permission allowlist for SmartcardService.
+
+     SmartcardService is installed as a priv-app and requests the
+     signature|privileged permissions below (declared in its stock
+     AndroidManifest.xml). On Android 11, PermissionManagerService
+     refuses to reach systemReady while a priv-app holds such a
+     permission without an allowlist entry, which crash-loops
+     system_server. List exactly the permissions the stock app
+     declares and needs. -->
+<permissions>
+    <privapp-permissions package="org.simalliance.openmobileapi.service">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+    </privapp-permissions>
+</permissions>

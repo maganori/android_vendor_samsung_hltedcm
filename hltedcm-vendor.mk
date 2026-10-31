@@ -332,7 +332,8 @@ PRODUCT_COPY_FILES += \
 
 ## FeliCa
 PRODUCT_COPY_FILES += \
-    vendor/samsung/hltedcm/proprietary/felica/etc/osaifu/osaifu.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/osaifu/osaifu.cfg
+    vendor/samsung/hltedcm/proprietary/felica/etc/osaifu/osaifu.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/osaifu/osaifu.cfg \
+    vendor/samsung/hltedcm/proprietary/smartcard/privapp-permissions-org.simalliance.openmobileapi.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-org.simalliance.openmobileapi.xml
 
 ## snfc
 PRODUCT_COPY_FILES += \
