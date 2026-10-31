@@ -325,3 +325,37 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/samsung/hltedcm/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so
+
+# FeliCa / SNFC / Smartcard (ported from the lineage-15.1 vendor tree;
+# appended manually - do not regenerate this file without preserving
+# this section)
+
+## FeliCa
+PRODUCT_COPY_FILES += \
+    vendor/samsung/hltedcm/proprietary/felica/etc/osaifu/osaifu.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/osaifu/osaifu.cfg
+
+## snfc
+PRODUCT_COPY_FILES += \
+    vendor/samsung/hltedcm/proprietary/snfc/etc/snfc/auto_polling.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/snfc/auto_polling.cfg \
+    vendor/samsung/hltedcm/proprietary/snfc/etc/snfc/rf.cfg:$(TARGET_COPY_OUT_SYSTEM)/etc/snfc/rf.cfg
+
+PRODUCT_PACKAGES += \
+    libnfc_sony_jni \
+    libnfc_sony \
+    libnfc_sony_ndef
+
+PRODUCT_PACKAGES += \
+    MobileFeliCaClient \
+    MobileFeliCaMenuApp \
+    MobileFeliCaSettingApp \
+    MobileFeliCaWebPluginBoot \
+    FeliCaLock \
+    libcordon \
+    mfsc \
+    mfdp
+
+PRODUCT_PACKAGES += \
+    SmartcardService \
+    org.simalliance.openmobileapi \
+    org.simalliance.openmobileapi.xml
+PRODUCT_BOOT_JARS += org.simalliance.openmobileapi
