@@ -1,0 +1,7 @@
+// MmbAll must be a Soong module: Android 11 requires
+// PRODUCT_BOOT_JARS entries to be defined in Android.bp files.
+java_import {
+    name: "MmbAll",
+    jars: ["framework/MmbAll.jar"],
+    installable: true,
+}
