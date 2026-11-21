@@ -468,7 +468,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/mmb/media/mmb/mmtuner/MN88552_ofdm_s_diff.rgs:$(TARGET_COPY_OUT_SYSTEM)/media/mmb/mmtuner/MN88552_ofdm_s_diff.rgs \
     vendor/samsung/hltedcm/proprietary/mmb/media/mmb/mmtuner/PSEQ1_MN88552_bprty.hex:$(TARGET_COPY_OUT_SYSTEM)/media/mmb/mmtuner/PSEQ1_MN88552_bprty.hex \
     vendor/samsung/hltedcm/proprietary/mmb/media/mmb/mmtuner/TNCTL_diff.hex:$(TARGET_COPY_OUT_SYSTEM)/media/mmb/mmtuner/TNCTL_diff.hex \
-    vendor/samsung/hltedcm/proprietary/mmb/etc/permissions/mmb.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/mmb.xml \
+    vendor/samsung/hltedcm/proprietary/mmb/etc/permissions/mmb.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/mmb.xml \
     vendor/samsung/hltedcm/proprietary/mmb/lib/libMmbCaCasDrmMw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMmbCaCasDrmMw.so \
     vendor/samsung/hltedcm/proprietary/mmb/lib/libMmbCaKyMngMw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMmbCaKyMngMw.so \
     vendor/samsung/hltedcm/proprietary/mmb/lib/libMmbFcCtlCltMw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMmbFcCtlCltMw.so \
@@ -525,7 +525,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/oneseg/etc/one-seg/njccp932.ctb:$(TARGET_COPY_OUT_SYSTEM)/etc/one-seg/njccp932.ctb \
     vendor/samsung/hltedcm/proprietary/oneseg/etc/one-seg/bmlrom_4.wav:$(TARGET_COPY_OUT_SYSTEM)/etc/one-seg/bmlrom_4.wav \
     vendor/samsung/hltedcm/proprietary/oneseg/etc/one-seg/bmlrom_1.wav:$(TARGET_COPY_OUT_SYSTEM)/etc/one-seg/bmlrom_1.wav \
-    vendor/samsung/hltedcm/proprietary/oneseg/etc/permissions/com.sec.android.app.minimode.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.sec.android.app.minimode.xml \
+    vendor/samsung/hltedcm/proprietary/oneseg/etc/permissions/com.sec.android.app.minimode.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sec.android.app.minimode.xml \
     vendor/samsung/hltedcm/proprietary/oneseg/etc/permissions/com.sec.feature.minimode.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.sec.feature.minimode.xml \
     vendor/samsung/hltedcm/proprietary/oneseg/fonts/BML.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/BML.ttf \
     vendor/samsung/hltedcm/proprietary/oneseg/lib/libBML.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBML.so \
