@@ -540,7 +540,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hltedcm/proprietary/oneseg/lib/libonesegdsmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libonesegdsmcc.so \
     vendor/samsung/hltedcm/proprietary/oneseg/lib/libSDtvVout.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSDtvVout.so \
     vendor/samsung/hltedcm/proprietary/oneseg/lib/libPGL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPGL.so \
-    vendor/samsung/hltedcm/proprietary/oneseg/lib/libmorpho_frame_interp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_frame_interp2.so \
     vendor/samsung/hltedcm/proprietary/oneseg/lib/libsdsmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsmcc.so \
     vendor/samsung/hltedcm/proprietary/oneseg/lib/libonesegbmlpeer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libonesegbmlpeer.so \
     vendor/samsung/hltedcm/proprietary/oneseg/lib/libISDBT_tuner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libISDBT_tuner.so \
