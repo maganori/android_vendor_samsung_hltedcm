@@ -6,5 +6,4 @@
 dex_import {
     name: "MmbAll",
     jars: ["framework/MmbAll.jar"],
-    installable: true,
 }
