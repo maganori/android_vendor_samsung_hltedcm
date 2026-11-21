@@ -97,6 +97,7 @@ LOCAL_VENDOR_MODULE := true
 # Stock blob: its DT_NEEDED closure is installed via
 # PRODUCT_COPY_FILES and has no build modules; skip the ELF check.
 LOCAL_CHECK_ELF_FILES := false
+LOCAL_STRIP_MODULE := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -111,6 +112,7 @@ LOCAL_VENDOR_MODULE := true
 # Stock blob: its DT_NEEDED closure is installed via
 # PRODUCT_COPY_FILES and has no build modules; skip the ELF check.
 LOCAL_CHECK_ELF_FILES := false
+LOCAL_STRIP_MODULE := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -125,6 +127,7 @@ LOCAL_VENDOR_MODULE := true
 # Stock blob: its DT_NEEDED closure is installed via
 # PRODUCT_COPY_FILES and has no build modules; skip the ELF check.
 LOCAL_CHECK_ELF_FILES := false
+LOCAL_STRIP_MODULE := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -139,6 +142,7 @@ LOCAL_VENDOR_MODULE := true
 # Stock blob: its DT_NEEDED closure is installed via
 # PRODUCT_COPY_FILES and has no build modules; skip the ELF check.
 LOCAL_CHECK_ELF_FILES := false
+LOCAL_STRIP_MODULE := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
