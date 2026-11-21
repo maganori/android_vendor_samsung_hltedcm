@@ -584,6 +584,7 @@ PRODUCT_PACKAGES += \
     MmbFcPgInfoMw \
     MmbFcIndivdMw \
     MmbServiceLibrary \
+    MmbAll \
     MmbStBmlMw \
     MmbPoServiceSp \
     MmbStRecMw \
