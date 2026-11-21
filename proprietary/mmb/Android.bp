@@ -1,6 +1,9 @@
 // MmbAll must be a Soong module: Android 11 requires
 // PRODUCT_BOOT_JARS entries to be defined in Android.bp files.
-java_import {
+// dex_import (not java_import): boot jars need a module that
+// provides a dex jar, which java_import does not produce
+// ('out/soong/missing' from the dex_bootjars rule).
+dex_import {
     name: "MmbAll",
     jars: ["framework/MmbAll.jar"],
     installable: true,
